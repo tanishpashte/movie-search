@@ -3,14 +3,10 @@ import profile from "./assets/profile.png"
 
 function Sidebar(){
     return (
-        <div className="w-fit h-screen px-8 py-12">
-            <div className="flex items-center gap-5 bg-slate-800 pr-4 py-2 rounded-lg justify-around mb-6">
-                <img src={profile} alt="Profile photo" className="rounded-full h-12 w-12"/>
-                <p className="">Welcome, Tanish</p>
-                {/* <div className="gap-4">
-                    <i class="fa-solid fa-magnifying-glass p-4 pr-4"></i>
-                    <i class="fa-solid fa-ellipsis-vertical py-4 px-2"></i>
-                </div> */}
+        <div className="w-fit h-screen rounded-xl mx-4 my-8 px-8 py-8 bg-slate-800 mr-6">
+            <div className="flex items-center gap-5 border border-slate-500 shadow-lg shadow-amber-100 px-4 py-2 rounded-lg justify-around mb-6 text-2xl">
+                <i class="fa-solid fa-film text-amber-400"></i>
+                <p className="">CineSpot</p>
             </div>
             <section className="mb-6">
                 <h3 className="font-bold text-2xl">Menu</h3>
