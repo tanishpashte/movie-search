@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Sidebar from './Sidebar'
 import Topbar from './Topbar'
+import Content from './Content'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
       <Sidebar />
       <div className='w-full'>
         <Topbar />  
+        <Content />
       </div>
     </div>
   )
